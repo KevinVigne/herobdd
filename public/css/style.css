@@ -4,14 +4,23 @@
     box-sizing: border-box;
 }
 :root{
-    --title--:#563c94;
+    --text--:#D887D7;
+    --bg--:#87D888   ;
 }
-.background404{
-    background-image: url(../img/erreur-404.png);
+.title ,.text{
+    color: var(--text--);
 }
-.title{
-    color: var(--title--);
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
 }
 .card{
     border: none;
+    width: 50%;
+}
+.footer ,.nav{
+    background-color: var(--bg--);
+    color: var(--text--);
 }

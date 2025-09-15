@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="404.php">404</a></li>
-            <!-- <li><a href="#"></a></li>
-            <li><a href="#"></a></li> -->
+    <nav class = 'nav container-fluid'>
+        <ul class = 'list row'>
+            <li><a class = 'text link' href="#">1</a></li>
+            <li><a class = 'text link' href="#">2</a></li>
+            <li><a class = 'text link' href="#">3</a></li>
         </ul>
     </nav>
