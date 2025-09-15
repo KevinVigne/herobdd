@@ -1,2 +1,8 @@
+<?php
+    require_once 'partials/head.php'
+?>
 
-<?php phpinfo(); ?>
+<?php
+    require_once 'partials/footer.php'
+?>
+
