@@ -1,0 +1,17 @@
+*{
+    margin :0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --title--:#563c94;
+}
+.background404{
+    background-image: url(../img/erreur-404.png);
+}
+.title{
+    color: var(--title--);
+}
+.card{
+    border: none;
+}
