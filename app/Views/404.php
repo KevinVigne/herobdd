@@ -3,9 +3,9 @@
 ?>
     <div class="card ">
         <img src="public/img/erreur-404.png" class="card-img" alt="Image de Chat Erreur 404">
-        <div class="card-img-overlay">
-            <h1 class="card-title">Erreur 404</h1>
-            <p class="card-text">Page Non Trouvée</p>
+        <div class="card-img-overlay d-flex flex-column justify-content-center">
+            <h1 class="card-title title">Erreur</h1>
+            <p class="card-text text">Page Non Trouvée</p>
         </div>
     </div>
 <?php 
