@@ -11,8 +11,8 @@
 <body>
     <nav class = 'nav container-fluid'>
         <ul class = 'list row'>
-            <li><a class = 'text link' href="#">1</a></li>
-            <li><a class = 'text link' href="#">2</a></li>
+            <li><a class = 'text link' href="/register">S'inscrire</a></li>
+            <li><a class = 'text link' href="/login">Se Connecter</a></li>
             <li><a class = 'text link' href="#">3</a></li>
         </ul>
     </nav>
