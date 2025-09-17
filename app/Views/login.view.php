@@ -1,23 +1,35 @@
-<?php
-    require_once(__DIR__ . '/partials/head.php');
+<?php 
+require_once(__DIR__ . '/partials/head.php');
 ?>
-
-<h1 class = 'd-flex justify-content-center'>Connection</h1>
-<form method= 'post'>
+<h1>Connexion</h1>
+<form method="POST">
     <div class="container">
         <div class="form-group">
-            <label for="email" class="form-label">Adresse mail :</label>
-            <input type="email" name ='email' placeholder='exemple@gmail.com' class='form-control'>
+            <label for="email" class="form-label">Donne moi ton email :</label>
+            <input type="email" name="email" id="email" placeholder="Toto@gmail.com" class="form-control">
+            <?php 
+                if(isset($arrayError['email'])){
+                    ?>
+                        <p class="text-danger"><?= $arrayError['email']?></p>
+                    <?php
+                }
+            ?>
         </div>
         <div class="form-group">
-            <label for="password" class="form-label">Mot de Passe :</label>
-            <input type="password" name ='password' class='form-control'>
+            <label for="password" class="form-label">Donne moi ton mot de pase :</label>
+            <input type="password" name="password" id="password" class="form-control">
+            <?php 
+                if(isset($arrayError['password'])){
+                    ?>
+                        <p class="text-danger"><?= $arrayError['password']?></p>
+                    <?php
+                }
+            ?>
         </div>
-        <button type="submit" class="btn btn-success mt-5">Connection</button>
+        <button type="submit" class="btn btn-success mt-5">Connexion</button>
     </div>
 </form>
-<?php
 
-
-    require_once(__DIR__ . '/partials/footer.php');
+<?php 
+require_once(__DIR__ . '/partials/footer.php');
 ?>
