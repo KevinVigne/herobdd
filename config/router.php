@@ -11,7 +11,9 @@ $routes = [
     '/register' => 'RegisterController.php',
     '/login' => 'LoginController.php',
     '/logout' => 'LogoutController.php',
-    '/addheros' => 'AddHerosController.php'
+    //Les Heros
+    '/addheros' => 'AddHerosController.php',
+    '/hero' =>'HeroController.php'
 ];
 
 // Récupération de l'URI actuelle de la requête utilisateur
