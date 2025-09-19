@@ -5,7 +5,6 @@
         header("Location: {$route}");
         exit;
     }
-
     function successMessage($myMessage){
 
         ?>
