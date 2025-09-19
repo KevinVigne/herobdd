@@ -13,6 +13,6 @@
         <ul class = 'list row'>
             <li><a class = 'text link' href="/register">S'inscrire</a></li>
             <li><a class = 'text link' href="/login">Se Connecter</a></li>
-            <li><a class = 'text link' href="#">3</a></li>
+            <li><a class = 'text link' href="/addheros">Ajouter un Héro</a></li>
         </ul>
     </nav>
