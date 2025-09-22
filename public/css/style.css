@@ -5,7 +5,7 @@
 }
 :root{
     --text--:#d476d3;
-    --bg--:#87D888   ;
+    --bg--:#87D888;
 }
 .title ,.text{
     color: var(--text--);
@@ -22,5 +22,13 @@
 }
 .footer ,.nav{
     background-color: var(--bg--);
+}
+.text-color{
     color: var(--text--);
+}
+.bg-color{
+    background-color: var(--bg--);
+}
+.btn-bg{
+    background-color: var(--bg--);
 }
