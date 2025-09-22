@@ -12,7 +12,7 @@ require_once(__DIR__ . '/partials/head.php');
                         <div style="width: 18rem;">
                             <img class="card-img-top" src="public/img/<?= $value['image'] ?>" alt="Image de <?php echo $value['name'] ?>">
                             <h2><?= $value['name']?></h2>
-                            <a href="/hero?id=<?= $value['id']?>" class="btn btn-info d-flex justify-content-center">Voir +</a>
+                            <a href="/hero?id=<?= $value['id']?>" class="btn bg-color d-flex justify-content-center">Voir plus d'information sur le Héro</a>
                         </div>
                     <?php
                 }
